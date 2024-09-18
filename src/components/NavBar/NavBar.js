@@ -13,7 +13,7 @@ const NavBar = () => {
         <img src={AnnaLogo} alt='Logo' className='logo'/>
         <div className='desktopMenu'>
                 <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-50} duration={500} className='desktopMenuListItem'>Home</Link>
-                <Link className='desktopMenuListItem'>About</Link>
+                <Link activeClass='active' to='about' spy={true} smooth={true} offset={-50} duration={500} className='desktopMenuListItem'>About</Link>
                 <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className='desktopMenuListItem'>Skills</Link>
                 <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-50} duration={500} className='desktopMenuListItem'>Projects</Link>
         </div>
@@ -22,12 +22,12 @@ const NavBar = () => {
             document.getElementById('contactPage').scrollIntoView({behavior: 'smooth'});
         }}>Contact
             <img src={contact} alt='Contact' className='desktopMenuImg'/>
-        </button>
+            </button>
 
         <img src={menu} alt='Navigation' className='mobileNav' onClick={()=>setShowMenu(!showMenu)} />
         <div className='navMenu' style={{display: showMenu? 'flex':'none'}}>
                 <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-50} duration={500} className='listItem' onClick={()=>setShowMenu(false)}>Home</Link>
-                <Link className='listItem'>About</Link>
+                <Link activeClass='active' to='about' spy={true} smooth={true} offset={-50} duration={500} className='listItem' onClick={()=>setShowMenu(false)}>About</Link>
                 <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className='listItem' onClick={()=>setShowMenu(false)}>Skills</Link>
                 <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-50} duration={500} className='listItem' onClick={()=>setShowMenu(false)}>Projects</Link>
                 <Link activeClass='active' to='contactPage' spy={true} smooth={true} offset={-50} duration={500} className='listItem' onClick={()=>setShowMenu(false)}>Contact</Link>
