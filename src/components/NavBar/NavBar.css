@@ -38,10 +38,58 @@
     justify-content: center;
     padding: 0 1rem;
     border-radius: 2rem;
+    cursor: pointer;
 }
 
 .desktopMenuImg {
     object-fit: cover;
     height: 2rem;
     width: 2rem;
+}
+
+.active {
+    color: #B34235;
+    border-bottom: 3px solid #B34235;
+    padding-bottom: 0.5rem;
+}
+
+.mobileNav {
+    display: none;
+    object-fit: cover;
+    height: 1.8rem;
+}
+
+.navMenu {
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 15rem;
+    background-color: #F9F3E9;
+    border-radius: 1rem;
+}
+
+.listItem {
+    color:#243E50;
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+    background-color: #F1EDE4;
+}
+
+@media screen and (max-width: 720px) {
+    .mobileNav {
+        display: flex;
+    }
+
+    .desktopMenu {
+        display: none;
+    }
+
+    .desktopMenuBtn {
+        display: none;
+    }
 }

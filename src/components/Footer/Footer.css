@@ -1,0 +1,28 @@
+.footer {
+    background-color: #F1EDE4;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footerLogo {
+    height: 2rem;
+    width: auto;
+}
+
+.footer-text {
+    font-size: 0.9rem;
+    color: #243E50;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+    }
+}
