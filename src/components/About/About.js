@@ -22,17 +22,17 @@ const About = () => {
 
         <div className='interestItem'>
             <img src={Painting} alt='Painting' className='interestImage' />
-            <p className='interestDesc'>Enjoy expressing my creativity through painting.</p>
+            <p className='interestDesc'>Enjoy expressing my creativity through painting</p>
         </div>
 
         <div className='interestItem'>
             <img src={Fitness} alt='Fitness' className='interestImage' />
-            <p className='interestDesc'>Maintain an active lifestyle with regular fitness and daily walks.</p>
+            <p className='interestDesc'>Maintain an active lifestyle with regular fitness and daily walks</p>
         </div>
 
         <div className='interestItem'>
             <img src={Knowledge} alt='Knowledge' className='interestImage' />
-            <p className='interestDesc'>Reading and listening to podcasts from experts on various topics.</p>
+            <p className='interestDesc'>Reading and listening to podcasts from experts on various topics</p>
         </div>
     </div>
         

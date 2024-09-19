@@ -49,6 +49,10 @@
     background-color: white;
 }
 
+.msg {
+    resize: vertical;
+}
+
 .submitBtn {
     background-color: #D7C4A5;
     color: #243E50;
@@ -68,5 +72,9 @@
     height: 3rem;
     width: 3rem;
     margin: 0 0.75rem;
+}
+
+.links a {
+    padding-top: 10px;
 }
 

@@ -10,6 +10,7 @@ const NavBar = () => {
 
   return (
     <nav className='NavBar'>
+        <div className='navContent'>
         <img src={AnnaLogo} alt='Logo' className='logo'/>
         <div className='desktopMenu'>
                 <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-50} duration={500} className='desktopMenuListItem'>Home</Link>
@@ -23,7 +24,7 @@ const NavBar = () => {
         }}>Contact
             {/* <img src={contact} alt='Contact' className='desktopMenuImg'/> */}
             </button>
-
+        </div>
         <img src={menu} alt='Navigation' className='mobileNav' onClick={()=>setShowMenu(!showMenu)} />
         <div className='navMenu' style={{display: showMenu? 'flex':'none'}}>
                 <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-50} duration={500} className='listItem' onClick={()=>setShowMenu(false)}>Home</Link>
