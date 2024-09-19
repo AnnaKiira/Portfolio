@@ -5,7 +5,7 @@ function Skills() {
     return (
         <section id='skills'>
             <span className='skillsTitle'>My skills</span>
-            <span className='skillsDesc'>I have experience working with the languages and frameworks in this section etc. etc. etc.</span>
+            <span className='skillsDesc'>I have experience working with the languages and frameworks in this section etc. etc. etc. </span>
             <div className='skillIcons'>
                 <div className='skillIcon'>
                 <i class="devicon-javascript-plain"></i>

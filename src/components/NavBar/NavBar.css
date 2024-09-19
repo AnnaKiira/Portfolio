@@ -16,6 +16,9 @@
 button.desktopMenuBtn {
     font-family: inherit;
     font-size: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #B34235;
+    color: #F9F3E9;
 }
 
 .logo {

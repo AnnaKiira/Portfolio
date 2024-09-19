@@ -1,6 +1,7 @@
 #contactPage {
     min-height: calc(100vh - 4rem);
     width: 100vw;
+    height: 55vw;
     max-width: 60rem;
     margin: 0 auto;
     text-align: center;
@@ -32,7 +33,7 @@
 }
 
 ::placeholder {
-    color: #F9F3E9;
+    color: #243E50;
     opacity: 1;
 }
 
@@ -42,10 +43,10 @@
     max-width: 40rem;
     margin: 0.5rem;
     padding: 0.5rem 1rem;
-    color: #F9F3E9;
-    border: none;
+    color: #243E50;
+    border: 1px solid #243E50;
     border-radius: 0.5rem;
-    background-color: #B34235;
+    background-color: white;
 }
 
 .submitBtn {
@@ -54,7 +55,6 @@
     border: none;
     border-radius: 2rem;
     margin: 2rem;
-    padding: 0.75rem 3.5rem;
     cursor: pointer;
 }
 
