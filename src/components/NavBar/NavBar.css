@@ -1,8 +1,8 @@
 .NavBar {
-    background-color: #F9F3E9;
+    background-color: black;
     height: 5rem;
     width: 100vw;
-    max-width: 75rem;
+    max-width: 100%;
     margin: 0 auto;
     padding: 1rem 2rem;
     display: flex;
@@ -16,9 +16,11 @@
 button.desktopMenuBtn {
     font-family: inherit;
     font-size: 1rem;
-    padding: 0.5rem 1rem;
+    /* padding: 0.5rem; */
     background-color: #B34235;
     color: #F9F3E9;
+    width: 95px;
+    height: 45px;
 }
 
 .logo {
@@ -38,16 +40,16 @@ button.desktopMenuBtn {
 }
 
 .desktopMenuBtn {
-    background: #F9F3E9;
-    color: #2D4A5E;
+    /* background: #F9F3E9;
+    color: #2D4A5E; */
     border: none;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
-    padding: 0 1rem;
-    border-radius: 2rem;
-    cursor: pointer;
-    gap: 5px;
+    /* padding: 0 1rem; */
+    /* border-radius: 2rem; */
+    /* cursor: pointer; */
+    /* gap: 5px; */
 }
 
 .desktopMenuImg {
