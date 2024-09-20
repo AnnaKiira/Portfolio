@@ -12,7 +12,7 @@
 
 .projectsDesc {
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 1.1rem;
     max-width: 45rem;
     margin-bottom: 4rem;
     text-align: center;
@@ -44,8 +44,8 @@
 }
 
 .projectParagraph {
-    font-size: 1rem;
-    line-height: 1.5;
+    font-size: 1.1rem;
+    font-weight: 300;
     margin-bottom: 1rem;
 }
 
