@@ -76,9 +76,21 @@
     border-bottom: 2px solid #B34235;
 }
 
-@media screen and (max-width: 840px) {
-    .projectImg {
-        max-width: 100%;
+@media screen and (max-width: 768px) {
+    .project {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projectContent {
+        padding-right: 0;
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+    
+    .projectContent h2 {
+        border-top: 1px solid #9f9f9f;
+        border-bottom: none;
     }
 }
 
