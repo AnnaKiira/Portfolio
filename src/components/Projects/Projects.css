@@ -41,12 +41,14 @@
     font-size: 2rem;
     margin-bottom: 1rem;
     border-bottom: 1px solid #9f9f9f;
+    color: #2D4A5E;
 }
 
 .projectParagraph {
     font-size: 1.1rem;
     font-weight: 300;
     margin-bottom: 1rem;
+    color: #2D4A5E;
 }
 
 .projectImg {
@@ -57,6 +59,21 @@
     height: auto;
     border-radius: 5px;
     border: 1.5px solid #243E50;
+}
+
+.projectLinks {
+    display: inline-block;
+    color: #B34235;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.projectLinks:hover {
+    /* background-color: #B34235;
+    color: #F9F3E9;
+    border-radius: 2px; */
+    border-bottom: 2px solid #B34235;
 }
 
 @media screen and (max-width: 840px) {
