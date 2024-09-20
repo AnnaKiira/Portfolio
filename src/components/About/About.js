@@ -8,7 +8,6 @@ const About = () => {
   return (
     <section id='about'>
      <h2 className='aboutTitle'>About Me</h2>
-    
     <div className='aboutContent'>
         <p className='aboutDesc'>I'm a Lisbon-based Junior Developer with a unique blend of software engineering skills and nursing experience. I recently completed a Software Engineering Bootcamp where I developed a strong foundation in full-stack web development.</p>
         < br/>
