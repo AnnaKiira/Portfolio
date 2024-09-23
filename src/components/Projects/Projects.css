@@ -70,9 +70,6 @@
 }
 
 .projectLinks:hover {
-    /* background-color: #B34235;
-    color: #F9F3E9;
-    border-radius: 2px; */
     border-bottom: 2px solid #B34235;
 }
 
@@ -87,7 +84,7 @@
         margin-bottom: 2rem;
         width: 100%;
     }
-    
+
     .projectContent h2 {
         border-top: 1px solid #9f9f9f;
         border-bottom: none;

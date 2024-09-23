@@ -5,7 +5,7 @@ function Skills() {
     return (
         <section id='skills'>
             <span className='skillsTitle'>My skills</span>
-            <span className='skillsDesc'>I have experience working with the languages and frameworks in this section etc. etc. etc. </span>
+            <span className='skillsDesc'>Throughout my bootcamp journey, I gained experience in both front-end and back-end languages and frameworks, along with essential development tools. <br /> This comprehensive training has provided me with a good foundation in full-stack development. Below is an overview of the skills I have acquired during the bootcamp. </span>
             <div className='skillIcons'>
                 <div className='skillIcon'>
                     <i class="devicon-javascript-plain"></i>

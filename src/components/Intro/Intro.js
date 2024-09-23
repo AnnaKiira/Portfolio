@@ -1,6 +1,5 @@
 import React from 'react'
 import './Intro.css'
-/* import { Link } from 'react-scroll' */
 import background from '../../assets/AnnaImage.png'
 import Github from '../../assets/github.png'
 import LinkedIn from '../../assets/linkedin.png'
