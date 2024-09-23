@@ -60,19 +60,13 @@
 
 @media screen and (max-width:840px)  {
     .background {
-        right: -10vw
-    }
-    .introContent {
-        font-size: 10vw;
-    }
-    .hello {
-        font-size: 4.5vw;
+        display: none;
     }
 }
 
 @media screen and (max-width:480px)  {
     .background {
-        right: -20vw
+        display: none;
     }
     
 }
