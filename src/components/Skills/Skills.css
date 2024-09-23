@@ -45,3 +45,17 @@
     margin: 0;
     font-size: 1rem;
 }
+
+@media screen and (max-width: 1024px) {
+    .skillIcon {
+        width: calc(25% - 2rem); /* 4 icons per row */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .skillIcon {
+        width: calc(50% - 2rem); /* 2 icons per row */
+        margin: 0.5rem;
+        padding: 1rem;
+    }
+}
