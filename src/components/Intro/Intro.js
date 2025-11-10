@@ -8,9 +8,15 @@ const Intro = () => {
   return (
     <section id='intro'>
       <div className='introContent'>
-        <span className='hello'>Hello,</span>
-        <span className='introText'>I'm <span className='introName'>Anna Kira</span> <br /> Junior Software Developer</span>
-        <p className='introParagraph'>I am passionate about projects where I can use my creativity <br /> and see my work directly impact and shape the end product.</p>
+
+        <span className='hello'>Welcome to my portfolio!</span>
+          <span className='myTitle'>
+            I’m <span className='introName'>Anna Kira</span> 
+            <br /> 
+            Junior Software Developer
+          </span>
+
+        <p className='introParagraph'>I’m drawn to work that blends creativity with problem-solving <br /> and lets me see the impact I have on the project as it evolves.</p>
 
         <div className='introLinks'>
 
@@ -29,7 +35,7 @@ const Intro = () => {
 
       </div>
       <img src={background} alt='Profile' className='background' />
-    </section>
+    </section >
   )
 }
 

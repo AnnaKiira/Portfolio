@@ -4,8 +4,10 @@ import './Skills.css'
 function Skills() {
     return (
         <section id='skills'>
-            <span className='skillsTitle'>My skills</span>
-            <span className='skillsDesc'>Throughout my bootcamp journey, I gained experience in both front-end and back-end languages and frameworks, along with essential development tools. <br /> This comprehensive training has provided me with a good foundation in full-stack development. Below is an overview of the skills I have acquired during the bootcamp. </span>
+            <span className='skillsTitle'>My Skills</span>
+            <span className='skillsDesc'>Throughout my bootcamp journey, I gained experience in both front-end and back-end languages and frameworks, along with essential development tools. This comprehensive training has provided me with a good foundation in full-stack development.</span>
+            < br/>
+            <span className='skillsDesc'>Below is an overview of the skills I have acquired during the bootcamp.</span>
             <div className='skillIcons'>
                 <div className='skillIcon'>
                     <i class="devicon-javascript-plain"></i>
@@ -105,6 +107,39 @@ function Skills() {
                         <h2>Mongoose</h2>
                     </div>
                 </div>
+            </div>
+
+            <span className='skillsDesc'>Tools and technologies I worked with in QA automation.</span>
+
+            <div className='skillIcons'>
+                <div className='skillIcon'>
+                    <i class="devicon-cypressio-plain"></i>
+                    <div className='skillText'>
+                        <h2>Cypress</h2>
+                    </div>
+                </div>
+
+                <div className='skillIcon'>
+                    <i class="devicon-typescript-plain"></i>
+                    <div className='skillText'>
+                        <h2>TypeScript</h2>
+                    </div>
+                </div>
+
+                <div className='skillIcon'>
+                     <i class="devicon-amazonwebservices-plain-wordmark"></i>
+                    <div className='skillText'>
+                        <h2>AWS</h2>
+                    </div>
+                </div>
+
+                <div className='skillIcon'>
+                     <i class="devicon-gitlab-plain"></i>
+                    <div className='skillText'>
+                        <h2>GitLab</h2>
+                    </div>
+                </div>
+
             </div>
 
 

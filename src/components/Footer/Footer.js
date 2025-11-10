@@ -8,7 +8,7 @@ const Footer = () => {
     <div className='footer-content'>
         <img src={AnnaLogo} alt='Anna Logo' className='footerLogo'/>
         <div className='footer-text'>
-            <p>&copy; 2024 Anna Kira Thomsen. All rights reserved.</p>
+            <p>&copy; 2025 Anna Kira Thomsen. All rights reserved.</p>
         </div>
     </div>
     </footer>
